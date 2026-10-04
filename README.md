@@ -12,6 +12,17 @@ Supported configuration:
 - added tokens with `lstrip` / `rstrip` / `single_word`,
 - `encode` and `decode`.
 
+## Installation
+
+Not registered on the General registry. Add it from GitHub at a pinned tag, or
+develop a local checkout:
+
+```julia
+using Pkg
+Pkg.add(url = "https://github.com/AtelierArith/HFTokenizers.jl", rev = "v0.1.0")
+# or: Pkg.develop(path = "HFTokenizers.jl")
+```
+
 ## Usage
 
 ```julia
